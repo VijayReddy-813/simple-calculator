@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Calculator {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        // Input first number
+        System.out.print("Enter first number: ");
+        int num1 = sc.nextInt();
+
+        // Input second number
+        System.out.print("Enter second number: ");
+        int num2 = sc.nextInt();
+
+        // Perform subtraction
+        int difference = num1 - num2;
+
+        // Display result
+        System.out.println("Difference = " + difference);
+
+        sc.close();
+    }
+}
